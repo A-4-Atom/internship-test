@@ -1,12 +1,12 @@
 import SideBar from "@/components/SideBar";
 import Header from "@/components/Header";
-import NewEvent from "@/components/NewEvent";
-export default function Home() {
+import Share from "@/components/Share";
+export default function Page2() {
   return (
     <main>
       <SideBar />
       <Header />
-      <NewEvent />
+      <Share />
     </main>
   );
 }

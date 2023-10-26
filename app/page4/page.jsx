@@ -1,12 +1,12 @@
 import SideBar from "@/components/SideBar";
 import Header from "@/components/Header";
-import NewEvent from "@/components/NewEvent";
-export default function Home() {
+import ClassDetails from "@/components/ClassDetails";
+export default function Page4() {
   return (
     <main>
       <SideBar />
       <Header />
-      <NewEvent />
+      <ClassDetails />
     </main>
   );
 }
